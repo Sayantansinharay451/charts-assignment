@@ -22,7 +22,7 @@ const NestedBarChart = ({ data, labels }) => {
 		chartData[key] = standardization(chartData[key]);
 	});
 	return (
-		<div className="bg-neutral-100 dark:bg-slate-900 col-span-2 p-14 rounded-2xl shadow-2xl">
+		<div className="bg-neutral-100 dark:bg-slate-900 col-span-2 p-14 rounded-2xl shadow-2xl lg:max-w-full">
 			<Chart
 				type="bar"
 				data={{

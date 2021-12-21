@@ -38,27 +38,29 @@ function App() {
 			{loading ? (
 				<div></div>
 			) : (
-				<>
+				<div className="">
 					<Navbar></Navbar>
-					<div className="grid grid-col-3 gap-10 m-20">
-						<LineChart
-							data={KeywordParsedData}
-							labels={SourceLabels}
-						></LineChart>
-						<DoughnutChart
-							data={SourceParsedData}
-							label={KeywordLabels}
-						></DoughnutChart>
-						<NestedBarChart
-							data={KeywordParsedData}
-							labels={SourceLabels}
-						></NestedBarChart>
-						<StackedBarChart
-							data={KeywordParsedData}
-							labels={SourceLabels}
-						></StackedBarChart>
+					<div className="flex justify-center items-center md:m-20 mx-5 my-20">
+						<div className="grid grid-col-3 gap-10 w-full">
+							<LineChart
+								data={KeywordParsedData}
+								labels={SourceLabels}
+							></LineChart>
+							<DoughnutChart
+								data={SourceParsedData}
+								label={KeywordLabels}
+							></DoughnutChart>
+							<NestedBarChart
+								data={KeywordParsedData}
+								labels={SourceLabels}
+							></NestedBarChart>
+							<StackedBarChart
+								data={KeywordParsedData}
+								labels={SourceLabels}
+							></StackedBarChart>
+						</div>
 					</div>
-				</>
+				</div>
 			)}
 		</div>
 	);

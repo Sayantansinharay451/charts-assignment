@@ -8,7 +8,7 @@ module.exports = {
 				gray: colors.neutral,
 			},
 			boxShadow: {
-				"2xl": "0 0 50px 1px rgba(0, 0, 0, 0.3)",
+				"2xl": "0 0 50px -10px rgba(0, 0, 0, 0.3)",
 			},
 		},
 	},
