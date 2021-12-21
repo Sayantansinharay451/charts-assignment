@@ -28,7 +28,7 @@ const LineChart = ({ data, labels }) => {
 		chartData[key] = NormalizedData(chartData[key]);
 	});
 	return (
-		<div className="rounded-2xl dark:bg-slate-900 col-span-3 bg-neutral-100 p-14 shadow-2xl">
+		<div className="rounded-2xl dark:bg-slate-900 col-span-3 bg-neutral-100 p-14 shadow-2xl mx-auto w-3/5 sm:w-10/12 md:w-full">
 			<Chart
 				type="line"
 				data={{

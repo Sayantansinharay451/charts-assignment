@@ -8,7 +8,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className=" bg-neutral-50 dark:bg-slate-800 dark:text-neutral-50 text-slate-900  shadow-lg w-full p-2 flex items-center">
+		<div className=" bg-neutral-50 dark:bg-slate-800 dark:text-neutral-50 text-slate-900  shadow-lg p-2 flex items-center">
 			<span className="text-4xl font-bold p-4 flex-1">
 				Assignment - React Developer
 			</span>
